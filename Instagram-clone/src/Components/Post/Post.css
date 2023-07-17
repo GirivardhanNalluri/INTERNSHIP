@@ -1,0 +1,128 @@
+.post__container {
+    width: 615px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    margin-bottom: 25px;
+}
+.post__header{
+    height: 60px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+}
+.post__image{
+    min-width: 30px;
+    min-height: 30px;
+    margin: 10px;
+}
+.post__username{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.post_reactimage {
+    width: 25px;
+    height:25px;
+    margin: 5px;
+}
+.post_comment {
+    margin: 10px;
+}
+.post__commentbox {
+    height: 56px;
+    width: 601px;
+    border: 0px;
+    border-top: 1px solid #dbdbdb;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.post__postButton {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3897f0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .post__comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post__commentAvatar {
+    margin-right: 10px;
+  }
+  
+  .post__commentAvatarImage {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .post__commentContent {
+    flex-grow: 1;
+  }
+  
+  .post__commentUsername {
+    font-weight: bold;
+  }
+  .suggestions__container {
+    width: 325px;
+    height: 290px;
+    margin-top: 25px;
+}
+.suggestions__header {
+    font-weight: bold;
+    color: #8e8e8e;
+}
+.suggestions__body {
+    height: 256px;
+    height: 290px;
+    margin-top: 10px;
+}
+.suggestions__friends {
+    display: flex;
+    padding: 5px 0px;
+    gap:30px;
+}
+.suggestions__image {
+    max-width: 35px;
+    max-height: 35px;
+}
+.suggestions__username{
+    font-weight: bold;
+    margin: 10px;
+}
+.navbar__barContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 50px;
+  }
+  
+  .navbar__menuItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 38px;
+    gap: 20px;
+  }
+  
+  .navbar__img {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .navbar__img:hover {
+    background-color: lightgray;
+  }
+  
+  .navbar__text {
+    margin-left: 5px;
+  }
+  
